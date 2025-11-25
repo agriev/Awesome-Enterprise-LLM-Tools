@@ -59,6 +59,9 @@ build/
 # Documentation builds
 docs/_build/
 site/
+_site/
+.jekyll-cache/
+.jekyll-metadata
 
 # Jupyter Notebook
 .ipynb_checkpoints

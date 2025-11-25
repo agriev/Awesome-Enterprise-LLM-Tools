@@ -1,0 +1,67 @@
+# GitHub Pages Configuration for Architect Theme
+title: Awesome LLM Tools for Enterprise
+description: A curated list of Large Language Model (LLM) tools, frameworks, and platforms specifically focused on enterprise deployment
+theme: jekyll-theme-architect
+
+# Site settings
+url: "https://agriev.github.io"  # Update with your GitHub username
+baseurl: "/Awesom-Enterprise-LLM"  # Update if your repo name is different
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Open Source Tools
+    url: /open-source-tools.html
+  - title: Commercial Tools
+    url: /commercial-tools.html
+  - title: Reference Architectures
+    url: /reference-architectures/
+  - title: Security & Compliance
+    url: /security-best-practices.html
+  - title: Data Governance
+    url: /data-governance.html
+  - title: Contributing
+    url: /CONTRIBUTING.html
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git
+  - .gitignore
+  - README.md
+
+# Include files
+include:
+  - _pages
+  - _includes
+
+# Mermaid support
+# Mermaid diagrams are rendered client-side via JavaScript
+# GitHub Pages also supports Mermaid natively in markdown
+
