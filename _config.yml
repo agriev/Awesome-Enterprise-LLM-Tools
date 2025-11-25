@@ -64,4 +64,5 @@ include:
 # Mermaid support
 # Mermaid diagrams are rendered client-side via JavaScript
 # GitHub Pages also supports Mermaid natively in markdown
+# Mermaid will be included via layout or GitHub Pages native support
 

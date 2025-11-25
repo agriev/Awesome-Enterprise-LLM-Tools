@@ -1,3 +1,8 @@
+---
+layout: default
+title: Confluence Document Search with RAG
+---
+
 # Confluence Document Search with RAG
 
 A reference architecture for implementing secure, permission-aware document search in Confluence using RAG (Retrieval-Augmented Generation) with enterprise security and access control.

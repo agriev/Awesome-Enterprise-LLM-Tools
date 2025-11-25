@@ -1,3 +1,8 @@
+---
+layout: default
+title: On-Premise LLM Infrastructure Reference Architecture
+---
+
 # On-Premise LLM Infrastructure Reference Architecture
 
 A comprehensive reference architecture for deploying secure, scalable LLM services in an on-premise enterprise environment with strict security requirements, multi-tenancy, and compliance needs.
