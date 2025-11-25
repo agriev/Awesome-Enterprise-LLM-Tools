@@ -1,8 +1,3 @@
----
-layout: default
-title: Data Warehouse (DWH) Integration with LLM
----
-
 # Data Warehouse (DWH) Integration with LLM
 
 A reference architecture for integrating LLM capabilities with enterprise data warehouses to enable natural language querying, automated reporting, and intelligent data analysis.

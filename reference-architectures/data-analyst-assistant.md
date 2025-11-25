@@ -1,8 +1,3 @@
----
-layout: default
-title: Data Analyst Assistant
----
-
 # Data Analyst Assistant
 
 A reference architecture for an LLM-powered assistant that helps data analysts write SQL queries, understand data schemas, generate visualizations, and analyze data from enterprise data warehouses.

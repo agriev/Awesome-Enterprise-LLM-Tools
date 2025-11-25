@@ -1,8 +1,3 @@
----
-layout: default
-title: Financial Analyst Assistant
----
-
 # Financial Analyst Assistant
 
 A reference architecture for an LLM-powered assistant that helps financial analysts with financial analysis, reporting, forecasting, and compliance tasks in an enterprise environment.

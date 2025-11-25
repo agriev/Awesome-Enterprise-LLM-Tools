@@ -1,8 +1,3 @@
----
-layout: default
-title: ERP Integration with LLM
----
-
 # ERP Integration with LLM
 
 A reference architecture for integrating LLM capabilities with Enterprise Resource Planning (ERP) systems to enable intelligent process automation, natural language reporting, and decision support.

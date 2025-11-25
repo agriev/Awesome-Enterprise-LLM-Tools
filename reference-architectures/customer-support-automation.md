@@ -1,8 +1,3 @@
----
-layout: default
-title: Customer Support Automation
----
-
 # Customer Support Automation
 
 A reference architecture for an LLM-powered customer support system that provides automated responses, ticket routing, knowledge base search, and escalation management while maintaining high quality and security standards.

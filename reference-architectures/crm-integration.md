@@ -1,8 +1,3 @@
----
-layout: default
-title: CRM Integration with LLM
----
-
 # CRM Integration with LLM
 
 A reference architecture for integrating LLM capabilities with Customer Relationship Management (CRM) systems to enable intelligent customer interactions, automated data entry, and predictive analytics.

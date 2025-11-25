@@ -1,8 +1,3 @@
----
-layout: default
-title: Developer Assistant
----
-
 # Developer Assistant
 
 A reference architecture for an LLM-powered assistant that helps developers with code generation, debugging, documentation, code review, and technical questions in an enterprise development environment.
