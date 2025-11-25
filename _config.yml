@@ -5,7 +5,7 @@ theme: jekyll-theme-architect
 
 # Site settings
 url: "https://agriev.github.io"  # Update with your GitHub username
-baseurl: "/Awesom-Enterprise-LLM"  # Update if your repo name is different
+baseurl: "/Awesome-Enterprise-LLM-Tools"  # Update if your repo name is different
 
 # Navigation
 nav:
