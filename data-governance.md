@@ -102,8 +102,9 @@ These folks design the technical foundation. They choose tools, design integrati
 - **Enterprise Readiness**: ⭐⭐⭐⭐ (High)
 - **Key Features**: 
   - Unified metadata management (data, ML, pipelines)
+  - **Excellent data lineage tracking**: End-to-end lineage with column-level granularity, impact analysis, and visual lineage graphs
+  - **Built-in DQ test framework**: Comprehensive platform for managing data quality tests with test definitions, scheduling, monitoring, and reporting
   - Built-in data quality and profiling
-  - End-to-end lineage tracking
   - REST APIs and SDKs
   - Role-based access control
   - Integration with 50+ data sources
@@ -113,6 +114,8 @@ These folks design the technical foundation. They choose tools, design integrati
   - ✅ SSO integration (SAML, OAuth, LDAP)
   - ✅ Audit logging and compliance features
   - ✅ High availability and scalability
+  - ✅ **Strong lineage capabilities**: Column-level lineage tracking with impact analysis
+  - ✅ **DQ test management**: Built-in framework for defining, scheduling, and monitoring data quality tests
   - ⚠️ Requires PostgreSQL/MySQL for metadata storage
   - ⚠️ Elasticsearch needed for search (can be resource-intensive)
 - **Recommendations for Large Enterprise**:
@@ -122,6 +125,8 @@ These folks design the technical foundation. They choose tools, design integrati
   - Set up automated backups for metadata
   - Configure RBAC policies before production use
   - Monitor Elasticsearch cluster performance
+  - **Leverage lineage for impact analysis**: Use OpenMetadata's lineage capabilities to understand data dependencies before making changes
+  - **Implement DQ tests early**: Set up data quality tests as part of your data pipeline to catch issues early
 
 #### DataHub
 - **Description**: LinkedIn's open-source metadata platform
@@ -259,6 +264,13 @@ These folks design the technical foundation. They choose tools, design integrati
 - Quality scorecards and dashboards
 - Exception handling and alerting
 
+**Data Quality Testing Platforms**
+- **OpenMetadata**: Excellent platform for managing DQ tests with built-in test framework. Supports test definitions, scheduling, monitoring, and reporting. Integrates seamlessly with metadata catalog and lineage, allowing you to track quality issues through data flows.
+- **Great Expectations**: Python-based data quality framework
+- **Apache Griffin**: Data quality service for big data
+- **Soda**: Data quality testing and monitoring
+- **Monte Carlo**: Data observability platform
+
 **Quality Improvement**
 - Root cause analysis for quality issues
 - Process improvement initiatives
@@ -288,6 +300,7 @@ These folks design the technical foundation. They choose tools, design integrati
 - **Provenance**: Data origin and history
 
 **Lineage Tools**
+- **OpenMetadata**: Excellent unified platform for data lineage tracking with end-to-end visualization, column-level lineage, and impact analysis. Integrates lineage with metadata catalog, making it easy to understand data flows across systems.
 - **OpenLineage**: Open-source lineage framework
 - **Apache Atlas**: Data lineage and governance
 - **Manta**: Automated data lineage platform
@@ -581,14 +594,16 @@ This roadmap provides a structured approach to advancing data governance maturit
 3. **Quality Framework** (Month 9-10)
    - Implement comprehensive quality framework
    - Deploy automated quality checks
+   - **If using OpenMetadata**: Leverage built-in DQ test framework for test management and monitoring
    - Set up quality scorecards
    - Establish quality SLAs
 
 4. **Lineage Implementation** (Month 10-11)
-   - Deploy lineage tracking (OpenLineage)
+   - Deploy lineage tracking (OpenMetadata recommended for unified platform, or OpenLineage)
    - Map critical data flows
    - Document transformations
    - Create lineage visualizations
+   - **If using OpenMetadata**: Leverage built-in lineage visualization and impact analysis features
 
 5. **Security Enhancement** (Month 11-12)
    - Implement fine-grained access control
@@ -763,6 +778,7 @@ This roadmap provides a structured approach to advancing data governance maturit
 ## Tools and Technologies
 
 ### Data Catalog
+- **OpenMetadata** (Recommended): Unified platform with excellent lineage and DQ test management
 - Apache Atlas
 - Collibra
 - Alation
@@ -770,6 +786,7 @@ This roadmap provides a structured approach to advancing data governance maturit
 - Amundsen
 
 ### Data Quality
+- **OpenMetadata** (Recommended): Built-in DQ test framework with test definitions, scheduling, and monitoring
 - Great Expectations
 - Apache Griffin
 - Datafold
@@ -777,6 +794,7 @@ This roadmap provides a structured approach to advancing data governance maturit
 - Soda
 
 ### Data Lineage
+- **OpenMetadata** (Recommended): Excellent unified platform for data lineage with column-level granularity and impact analysis
 - OpenLineage
 - Apache Atlas
 - Manta

@@ -70,6 +70,11 @@ This architecture shows you how to connect LLM services to your existing data wa
 - **Business Glossary**: Map technical terms to business concepts
 - **Data Lineage**: Track data lineage and transformations
 
+**Recommended Tools**:
+- **OpenMetadata**: Excellent choice for schema registry and metadata management. Provides automatic schema discovery, versioning, lineage tracking, and DQ test management. Integrates with major data warehouses (ClickHouse, Trino, Snowflake, BigQuery, etc.) and provides REST APIs for programmatic access.
+- **DataHub**: Alternative metadata platform with similar capabilities
+- **Custom Solutions**: Build custom schema registry if needed
+
 ### 3. Text-to-SQL Engine
 
 #### Query Generation
