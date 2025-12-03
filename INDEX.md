@@ -39,6 +39,13 @@ A curated list of Large Language Model (LLM) tools, frameworks, and platforms sp
 - [Customer Support Automation](./reference-architectures/customer-support-automation.html)
 - [All Reference Architectures](./reference-architectures/)
 
+### 👨‍💻 LLM Development Guidelines
+- [Development Guidelines Overview](./llm-development-guidelines/README.html) - Overview and quick start checklist
+- [Security Requirements](./llm-development-guidelines/security-requirements.html) - Mandatory security requirements
+- [Observability Requirements](./llm-development-guidelines/observability-requirements.html) - Monitoring, logging, and tracing requirements
+- [Scalability & Performance Requirements](./llm-development-guidelines/scalability-requirements.html) - Scalability and performance targets
+- [Compliance & Governance Requirements](./llm-development-guidelines/compliance-requirements.html) - Regulatory compliance and governance
+
 ### 🔒 Security & Compliance
 - [Cybersecurity Framework](./cybersecurity-framework.html)
 - [Security Architecture Selection Guide](./security-architecture-selection-guide.html)

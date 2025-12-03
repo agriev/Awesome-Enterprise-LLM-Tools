@@ -20,6 +20,7 @@ A curated list of Large Language Model (LLM) tools, frameworks, and platforms sp
 - [Open Source Tools](#open-source-tools)
 - [Commercial/Paid Tools](#commercialpaid-tools)
 - [Reference Architectures](#reference-architectures)
+- [LLM Development Guidelines](#llm-development-guidelines)
 - [Security & Compliance](#security--compliance)
 - [Enterprise Architecture & Governance](#enterprise-architecture--governance)
 - [Quick Navigation](#quick-navigation)
@@ -69,6 +70,20 @@ See [reference-architectures/](./reference-architectures/) for detailed implemen
 - [Financial Analyst Assistant](./reference-architectures/financial-analyst-assistant.md) - Financial analysis and reporting assistant
 - [Developer Assistant](./reference-architectures/developer-assistant.md) - Code generation and development support
 - [Customer Support Automation](./reference-architectures/customer-support-automation.md) - Automated customer support with LLM
+
+## 👨‍💻 LLM Development Guidelines
+
+See [llm-development-guidelines/](./llm-development-guidelines/) for comprehensive development guidelines and requirements for building enterprise LLM services. These guidelines ensure that LLM services meet enterprise standards for security, observability, scalability, compliance, and reliability.
+
+### Development Guidelines
+
+- [Development Guidelines Overview](./llm-development-guidelines/README.md) - Overview and quick start checklist
+- [Security Requirements](./llm-development-guidelines/security-requirements.md) - Mandatory security requirements for LLM services
+- [Observability Requirements](./llm-development-guidelines/observability-requirements.md) - Comprehensive monitoring, logging, and tracing requirements
+- [Scalability & Performance Requirements](./llm-development-guidelines/scalability-requirements.md) - Scalability and performance targets
+- [Compliance & Governance Requirements](./llm-development-guidelines/compliance-requirements.md) - Regulatory compliance and governance requirements
+
+**Note**: These guidelines are mandatory requirements for all enterprise LLM services. Review them before starting development.
 
 ## 🔒 Security & Compliance
 
